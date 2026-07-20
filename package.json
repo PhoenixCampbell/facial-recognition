@@ -1,0 +1,21 @@
+{
+  "scripts": {
+    "lint:js": "eslint .",
+    "format:js": "prettier --write ."
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run format:js && npm run lint:js"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --write",
+      "eslint"
+    ],
+    "*.ts": [
+      "prettier --write",
+      "eslint"
+    ]
+  }
+}

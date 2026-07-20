@@ -1,1 +1,10 @@
 node_modules
+*.rec
+*.idx
+*.lst
+*.pickle
+img_align_celeba/
+casia-webface/
+celeba-dataset/
+lfw-deepfunneled/
+vggface2-112x112/
