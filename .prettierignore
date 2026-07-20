@@ -1,0 +1,11 @@
+node_modules/
+package-lock.json
+*.rec
+*.idx
+*.lst
+*.pickle
+img_align_celeba/
+casia-webface/
+celeba-dataset/
+lfw-deepfunneled/
+vggface2-112x112/
